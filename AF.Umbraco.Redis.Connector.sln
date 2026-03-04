@@ -1,0 +1,50 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umbraco.Cms.17.x", "src\Umbraco.Cms.17.x\Umbraco.Cms.17.x.csproj", "{655B2D90-0BF1-ADFA-7E88-2E1759B7C468}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umbraco.Cms.16.x", "src\Umbraco.Cms.16.x\Umbraco.Cms.16.x.csproj", "{E7F93183-9EE5-423C-08A5-9DFFB7B7AE56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umbraco.Cms.15.x", "src\Umbraco.Cms.15.x\Umbraco.Cms.15.x.csproj", "{DB255E23-EA40-A49D-6CC2-32C663025886}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AF.Umbraco.Redis.Connector", "src\AF.Umbraco.Redis.Connector\AF.Umbraco.Redis.Connector.csproj", "{3B43C1D0-0365-4B09-BD2E-2495F53F03B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{655B2D90-0BF1-ADFA-7E88-2E1759B7C468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{655B2D90-0BF1-ADFA-7E88-2E1759B7C468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{655B2D90-0BF1-ADFA-7E88-2E1759B7C468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{655B2D90-0BF1-ADFA-7E88-2E1759B7C468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7F93183-9EE5-423C-08A5-9DFFB7B7AE56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F93183-9EE5-423C-08A5-9DFFB7B7AE56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F93183-9EE5-423C-08A5-9DFFB7B7AE56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F93183-9EE5-423C-08A5-9DFFB7B7AE56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB255E23-EA40-A49D-6CC2-32C663025886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB255E23-EA40-A49D-6CC2-32C663025886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB255E23-EA40-A49D-6CC2-32C663025886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB255E23-EA40-A49D-6CC2-32C663025886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B43C1D0-0365-4B09-BD2E-2495F53F03B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B43C1D0-0365-4B09-BD2E-2495F53F03B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B43C1D0-0365-4B09-BD2E-2495F53F03B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B43C1D0-0365-4B09-BD2E-2495F53F03B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{655B2D90-0BF1-ADFA-7E88-2E1759B7C468} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{E7F93183-9EE5-423C-08A5-9DFFB7B7AE56} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{DB255E23-EA40-A49D-6CC2-32C663025886} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{3B43C1D0-0365-4B09-BD2E-2495F53F03B8} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6DC538C-7F27-4C8D-9E0E-CB540C8F9A62}
+	EndGlobalSection
+EndGlobal

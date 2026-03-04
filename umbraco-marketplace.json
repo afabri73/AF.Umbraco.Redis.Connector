@@ -1,0 +1,29 @@
+{
+  "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json",
+  "AuthorDetails": {
+    "Name": "Adriano Fabri",
+    "Description": "A full stack developer with a particular focus on .NET, Angular and NodeJS development.",
+    "Url": "https://www.linkedin.com/in/fabriadriano/",
+    "ImageUrl": "https://avatars.githubusercontent.com/u/6714121?s=400&v=4"
+  },
+  "Category": "Developer Tools",
+  "Description": "Redis connector for Umbraco 15/16/17 (.NET 9/10). Auto-composes StackExchange.Redis distributed cache, persists ASP.NET Core Data Protection keys to Redis (default key: AF.Umbraco.Redis.Connector:_DataProtectionKeys), performs startup fail-fast connectivity validation, and includes optional smoke endpoints.",
+  "DocumentationUrl": "https://github.com/afabri73/AF.Umbraco.Redis.Connector?tab=readme-ov-file#readme-ov-file",
+  "LicenseTypes": ["Free"],
+  "LicensesUrl": "https://github.com/afabri73/AF.Umbraco.Redis.Connector?tab=readme-ov-file#MIT-1-ov-file",
+  "IssueTrackerUrl": "https://github.com/afabri73/AF.Umbraco.Redis.Connector/issues",
+  "PackageType": "Package",
+  "PackageUrl": "https://www.nuget.org/packages/AF.Umbraco.Redis.Connector/",
+  "Tags": [
+    "Redis",
+    "Cache",
+    "DistributedCache",
+    "Umbraco",
+    "Umbraco 15",
+    "Umbraco 16",
+    "Umbraco 17",
+    ".NET 9",
+    ".NET 10"
+  ],
+  "Title": "AF Umbraco Redis Connector"
+}

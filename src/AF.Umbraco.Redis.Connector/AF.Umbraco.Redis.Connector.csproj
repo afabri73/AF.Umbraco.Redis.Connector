@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591;1573;1574</NoWarn>
+    <Title>AF Umbraco Redis Connector</Title>
+    <Authors>Adriano Fabri</Authors>
+    <Version>1.0.0</Version>
+    <Copyright>©2026 Adriano Fabri</Copyright>
+    <Description>Redis connector for Umbraco 15/16/17 (.NET 9/10). Auto-composes StackExchange.Redis distributed cache (no Program.cs changes required), persists ASP.NET Core Data Protection keys to Redis (default key: AF.Umbraco.Redis.Connector:_DataProtectionKeys), performs startup fail-fast connectivity validation, and provides optional smoke endpoints.</Description>
+    <PackageId>AF.Umbraco.Redis.Connector</PackageId>
+    <PackageTags>umbraco;redis;stackexchange;distributedcache;connector;umbraco15;umbraco16;umbraco17;dotnet9;dotnet10;umbraco-marketplace</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/afabri73/AF.Umbraco.Redis.Connector</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/afabri73/AF.Umbraco.Redis.Connector</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>1.0.0 - First public release. Adds Redis distributed cache auto-composition for Umbraco 15/16/17 with startup fail-fast connectivity validation and optional smoke endpoints.</PackageReleaseNotes>
+    <PackageIconUrl />
+    <PackageIcon>Logo.jpg</PackageIcon>
+    <TargetFrameworks>net9.0;net10.0</TargetFrameworks>
+    <PackageVersion>1.0.0</PackageVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\brand\Logo.jpg" Pack="true" PackagePath="\" Link="Logo.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" Version="[9.0.0,11.0.0)" />
+    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="[9.0.0,11.0.0)" />
+    <PackageReference Include="StackExchange.Redis" Version="[2.8.0,3.0.0)" />
+    <PackageReference Include="Umbraco.Cms.Web.Common" Version="[15.0.0,18.0.0)" />
+  </ItemGroup>
+</Project>
